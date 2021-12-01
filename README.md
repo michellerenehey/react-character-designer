@@ -1,25 +1,38 @@
-# Alchemy React Base Template
+# Character Designer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## app.js will hold:
 
-Use this template for all your "from scratch" deliverables. To start, simply run
+- header
+- home
+- footer
 
-- `npm install`
-- `npm start`
+## header lives on its own
 
-## Available Scripts
+## home will hold:
 
-In the project directory, you can run:
+- selector component
+- displayer component
+- stats component
 
-### `npm start`
+## footer lives on its own
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## selector is child of home and holds:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- head selector
+- middle selector
+- bottom selector
+- catch phrase
 
-### `npm test`
+## displayer is child of home and holds:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- head selected
+- middle selected
+- bottom selected
+- catch phrase written
+
+## stats is child of home and holds:
+
+- `#` times head changed
+- `#` times middle changed
+- `#` times bottom changed
+- list of all catch phrases
