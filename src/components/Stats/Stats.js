@@ -1,4 +1,5 @@
 import './Stats.css';
+import cast from '../../cast.png';
 
 export default function Stats({ headCount, poolCount, drinkCount, phraseList }) {
   return (
@@ -9,9 +10,12 @@ export default function Stats({ headCount, poolCount, drinkCount, phraseList }) 
       <div>
         Your catchphrases are:
         {phraseList.map((elem) => (
-          <p key={elem}>{elem}</p>
+          <p key={elem} style={{ color: '#9d8189' }}>
+            {elem}
+          </p>
         ))}
       </div>
+      <img src={cast} />
     </div>
   );
 }
