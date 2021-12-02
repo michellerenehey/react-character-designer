@@ -10,11 +10,12 @@ export default function Home() {
   const [head, setHead] = useState('');
   const [pool, setPool] = useState('');
   const [drink, setDrink] = useState('');
+  const [phrase, setPhrase] = useState('');
 
   return (
     <main>
-      <Selector {...{ head, setHead, pool, setPool, drink, setDrink }} />
-      <Displayer {...{ head, pool, drink }} />
+      <Selector {...{ head, setHead, pool, setPool, drink, setDrink, phrase, setPhrase }} />
+      <Displayer {...{ head, pool, drink, phrase }} />
       {/* <Stats /> */}
     </main>
   );

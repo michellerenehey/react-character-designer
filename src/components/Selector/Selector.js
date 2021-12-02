@@ -1,6 +1,15 @@
 import './Selector.css';
 
-export default function Selector({ head, setHead, pool, setPool, drink, setDrink }) {
+export default function Selector({
+  head,
+  setHead,
+  pool,
+  setPool,
+  drink,
+  setDrink,
+  phrase,
+  setPhrase,
+}) {
   return (
     <>
       <div>
@@ -24,6 +33,10 @@ export default function Selector({ head, setHead, pool, setPool, drink, setDrink
           <option value="tequila">tequila shot</option>
           <option value="champ">champers</option>
         </select>
+      </div>
+      <div>
+        <input type="text" value={phrase} onChange={(e) => setPhrase(e.target.value)} />
+        <button>enter</button>
       </div>
     </>
   );
