@@ -1,7 +1,7 @@
 header {
   height: 40px;
-  background-color: var(--color2);
-  color: var(--color4);
+  background-color: var(--color3);
+  color: var(--color5);
   font-size: 30px;
   display: flex;
   align-items: center;

@@ -1,0 +1,17 @@
+.selector {
+  /* grid-area: selector; */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div {
+  margin: 20px;
+}
+
+.choices {
+  justify-content: center;
+  align-items: center;
+}

@@ -35,36 +35,36 @@ export default function Selector({
   };
 
   return (
-    <>
-      <div>
-        <label>Pick your housewife</label>
+    <div className="selector">
+      <div className="choices">
+        <label>Pick your housewife:</label>
         <select value={head} onChange={handleHead}>
           <option value="kim">kim richards</option>
           <option value="kyle">kyle richards</option>
           <option value="lisa">lisa vanderpump</option>
         </select>
       </div>
-      <div>
-        <label>Pick her pool</label>
+      <div className="choices">
+        <label>Pick her pool:</label>
         <select value={pool} onChange={handlePool}>
           <option value="indoor">indoor pool</option>
           <option value="outdoor">outdoor pool</option>
           <option value="rooftop">rooftop pool</option>
         </select>
       </div>
-      <div>
-        <label>Pick her drink of choice</label>
+      <div className="choices">
+        <label>Pick her drink of choice:</label>
         <select value={drink} onChange={handleDrink}>
           <option value="wine">white wine</option>
           <option value="tequila">tequila shot</option>
           <option value="champ">champers</option>
         </select>
       </div>
-      <div>
+      <div className="choices">
         <label>Her catch phrase?</label>
         <input type="text" value={phrase} onChange={(e) => setPhrase(e.target.value)} />
         <button onClick={handleClick}>save the phrase</button>
       </div>
-    </>
+    </div>
   );
 }

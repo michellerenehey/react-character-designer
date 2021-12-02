@@ -1,8 +1,8 @@
-import './Stats.js';
+import './Stats.css';
 
 export default function Stats({ headCount, poolCount, drinkCount, phraseList }) {
   return (
-    <div>
+    <div className="stats">
       <p>You have changed the character {headCount} time(s).</p>
       <p>You have changed the pool {poolCount} time(s).</p>
       <p>You have changed drinks {drinkCount} time(s).</p>
