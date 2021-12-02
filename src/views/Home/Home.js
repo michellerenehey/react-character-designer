@@ -36,7 +36,7 @@ export default function Home() {
         }}
       />
       <Displayer {...{ head, pool, drink, phrase }} />
-      <Stats {...{ headCount, poolCount, drinkCount }} />
+      <Stats {...{ headCount, poolCount, drinkCount, phraseList }} />
     </main>
   );
 }
