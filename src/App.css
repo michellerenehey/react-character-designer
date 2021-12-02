@@ -7,6 +7,5 @@ body {
   --colorDark: #272727;
   --header-height: 40px;
   font-family: 'Roboto', sans-serif;
-  background-color: var(--color1);
-  color: var(--color1);
+  background-color: pink;
 }
