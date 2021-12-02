@@ -7,9 +7,9 @@ import Stats from '../../components/Stats/Stats';
 import './Home.css';
 
 export default function Home() {
-  const [head, setHead] = useState('');
-  const [pool, setPool] = useState('');
-  const [drink, setDrink] = useState('');
+  const [head, setHead] = useState('lisa');
+  const [pool, setPool] = useState('outdoor');
+  const [drink, setDrink] = useState('tequila');
   const [phrase, setPhrase] = useState('');
   const [phraseList, setPhraseList] = useState([]);
   const [headCount, setHeadCount] = useState(0);

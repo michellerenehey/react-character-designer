@@ -1,5 +1,5 @@
 import './Header.css';
 
 export default function Header() {
-  return <header>Character Builder</header>;
+  return <header>Real Housewives Builder</header>;
 }
