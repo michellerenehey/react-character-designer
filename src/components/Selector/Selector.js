@@ -9,18 +9,36 @@ export default function Selector({
   setDrink,
   phrase,
   setPhrase,
-  phraseList,
   setPhraseList,
+  setHeadCount,
+  setPoolCount,
+  setDrinkCount,
 }) {
   const handleClick = () => {
     setPhraseList((prevState) => [...prevState, phrase]);
     setPhrase('');
   };
+
+  const handleHead = (e) => {
+    setHead(e.target.value);
+    setHeadCount((prevState) => prevState + 1);
+  };
+
+  const handlePool = (e) => {
+    setPool(e.target.value);
+    setPoolCount((prevState) => prevState + 1);
+  };
+
+  const handleDrink = (e) => {
+    setDrink(e.target.value);
+    setDrinkCount((prevState) => prevState + 1);
+  };
+
   return (
     <>
       <div>
         <label>Pick your housewife</label>
-        <select value={head} onChange={(e) => setHead(e.target.value)}>
+        <select value={head} onChange={handleHead}>
           <option value="kim">kim richards</option>
           <option value="kyle">kyle richards</option>
           <option value="lisa">lisa vanderpump</option>
@@ -28,7 +46,7 @@ export default function Selector({
       </div>
       <div>
         <label>Pick her pool</label>
-        <select value={pool} onChange={(e) => setPool(e.target.value)}>
+        <select value={pool} onChange={handlePool}>
           <option value="indoor">indoor pool</option>
           <option value="outdoor">outdoor pool</option>
           <option value="rooftop">rooftop pool</option>
@@ -36,7 +54,7 @@ export default function Selector({
       </div>
       <div>
         <label>Pick her drink of choice</label>
-        <select value={drink} onChange={(e) => setDrink(e.target.value)}>
+        <select value={drink} onChange={handleDrink}>
           <option value="wine">white wine</option>
           <option value="tequila">tequila shot</option>
           <option value="champ">champers</option>
