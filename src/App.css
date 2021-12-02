@@ -6,5 +6,5 @@ body {
   --color5: #9d8189;
   --header-height: 40px;
   font-family: 'Roboto', sans-serif;
-  background-color: var(--color2);
+  background-color: var(--color1);
 }
