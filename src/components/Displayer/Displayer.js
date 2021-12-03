@@ -13,7 +13,7 @@ export default function Displayer({ head, pool, drink, phrase }) {
         <img src={`${process.env.PUBLIC_URL}/images/${drink}.jpeg`} />
       </div>
       <div>
-        <p style={{ color: '#9d8189', fontSize: '25px' }}>{phrase}</p>
+        <p style={{ color: 'black', fontSize: '25px' }}>{phrase}</p>
       </div>
     </div>
   );

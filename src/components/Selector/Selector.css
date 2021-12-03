@@ -1,21 +1,24 @@
 .selector {
   grid-column: 1/2;
   grid-row: 1/2;
-}
-
-div {
-  margin: 20px;
+  border: solid 5px var(--color1);
+  border-radius: 10px;
+  background-color: var(--color4);
 }
 
 .choices {
   display: flex;
   flex-direction: column;
+  padding: 10px;
+}
+
+select {
+  padding: 5px;
 }
 
 button {
   width: 100px;
-  background-color: var(--color3);
   color: var(--color5);
   align-self: center;
-  margin: 4px;
+  margin: 10px;
 }

@@ -1,7 +1,7 @@
 footer {
-  color: var(--color5);
   height: 40px;
-  background-color: var(--color3);
+  background-color: var(--colorBlack);
+  color: var(--color1);
   display: flex;
   align-items: center;
   justify-content: flex-end;

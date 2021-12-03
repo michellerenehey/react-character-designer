@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Selector from '../../components/Selector/Selector';
 import Displayer from '../../components/Displayer/Displayer';
 import Stats from '../../components/Stats/Stats';
+import background from '../../pattern.png';
 
 import './Home.css';
 
@@ -17,7 +18,7 @@ export default function Home() {
   const [drinkCount, setDrinkCount] = useState(0);
 
   return (
-    <main>
+    <main style={{ backgroundImage: `url(${background})` }}>
       <Selector
         {...{
           head,

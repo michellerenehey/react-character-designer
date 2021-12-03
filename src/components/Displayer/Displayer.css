@@ -1,8 +1,17 @@
 .displayer {
   grid-column: 2/3;
   grid-row: 1/2;
+  border: solid 5px var(--color1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--color4);
 }
 
 img {
   height: 150px;
+  padding: 5px;
 }
