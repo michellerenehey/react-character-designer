@@ -25,7 +25,7 @@ Object {
         </div>
         <div>
           <p
-            style="color: rgb(157, 129, 137); font-size: 25px;"
+            style="color: black; font-size: 25px;"
           >
             howdy
           </p>
@@ -54,7 +54,7 @@ Object {
       </div>
       <div>
         <p
-          style="color: rgb(157, 129, 137); font-size: 25px;"
+          style="color: black; font-size: 25px;"
         >
           howdy
         </p>

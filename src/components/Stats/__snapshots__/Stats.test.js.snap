@@ -9,12 +9,12 @@ Object {
         class="stats"
       >
         <p>
-          You have changed the character 
+          You have changed characters 
           0
            time(s).
         </p>
         <p>
-          You have changed the pool 
+          You have changed pools 
           0
            time(s).
         </p>
@@ -26,9 +26,6 @@ Object {
         <div>
           Your catchphrases are:
         </div>
-        <img
-          src="cast.png"
-        />
       </div>
     </div>
   </body>,
@@ -37,12 +34,12 @@ Object {
       class="stats"
     >
       <p>
-        You have changed the character 
+        You have changed characters 
         0
          time(s).
       </p>
       <p>
-        You have changed the pool 
+        You have changed pools 
         0
          time(s).
       </p>
@@ -54,9 +51,6 @@ Object {
       <div>
         Your catchphrases are:
       </div>
-      <img
-        src="cast.png"
-      />
     </div>
   </div>,
   "debug": [Function],
